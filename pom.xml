@@ -13,6 +13,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>kafka-microservice</name>
     <description>kafka-microservice</description>
+    <modules>
+        <module>kafka-producer-wikimedia</module>
+    </modules>
+    <packaging>pom</packaging>
     <url/>
     <licenses>
         <license/>
