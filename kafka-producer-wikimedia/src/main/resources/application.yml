@@ -11,3 +11,5 @@ logging:
       launchdarkly:
         eventsource: DEBUG
       okhttp3: DEBUG
+server:
+  port: 8080
