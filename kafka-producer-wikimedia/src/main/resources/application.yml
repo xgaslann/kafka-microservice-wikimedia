@@ -4,3 +4,10 @@ spring:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
+logging:
+  level:
+    com:
+      xgaslan: DEBUG
+      launchdarkly:
+        eventsource: DEBUG
+      okhttp3: DEBUG
